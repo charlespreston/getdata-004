@@ -34,9 +34,10 @@ ydata <- rbind(ydata, read.table("test/y_test.txt", header = F, col.names = c("a
 activity_labels <- read.table("activity_labels.txt", header=F, col.names=c("activity", "activityname"))
 activities <- activity_labels[ydata$activity,]$activityname
 
+
 # Produce the tidy data 
 tidy <- cbind(subjects, activities, xdata)
-tidy.avgs <- aggregate(tidy[, 3:dim(tidy)[2]], list(tidy$subject, tidy$activity), mean)
+tidy.avgs <- aggregate(tidy[, 3:dim(tidy)[2]], list(tidy$subject, tidy$activities), mean)
 
 names(tidy.avgs)[1:2]<-c('subject', 'activity')
 write.csv(tidy.avgs, "tidy.avgs.csv")
