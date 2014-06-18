@@ -5,4 +5,5 @@
 ### cp ~Downloads/getdata* ./
 ### unzip getdata-projecctfiles-UCI\ HAR\ Dataset.zip
 
-## Data
+#### Describe fields
+#### order, type, position, description
