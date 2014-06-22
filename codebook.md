@@ -7,7 +7,8 @@
 
 ##### Describe fields
 ##### order, type, position, description
-| | 
+|Variable Name | Description | 
+|--------------|-------------|
 |subject | 
 |activities | 
 |tBodyAcc.mean...X | 
