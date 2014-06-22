@@ -9,4 +9,5 @@ It then creates two files:
 * File 2: A tidy dataset averaging each variable by activity and subject
 
 Included in this directory is this README.md file
+
 Included in this directory is a codebook.md file describing the variables, work and transformations performed to clean up the data
