@@ -5,12 +5,10 @@
 ### cp ~Downloads/getdata* ./
 ### unzip getdata-projecctfiles-UCI\ HAR\ Dataset.zip
 
-##### Describe fields
-##### order, type, position, description
-|Variable Name | Description | 
-|--------------|-------------|
-|subject | 
-|activities | 
+|Variable Name | Type | Description | 
+|--------------|------|-------|
+|subject | numeric | Subject Index |
+|activities | text | Activity Name |
 |tBodyAcc.mean...X | 
 |tBodyAcc.mean...Y | 
 |tBodyAcc.mean...Z | 
