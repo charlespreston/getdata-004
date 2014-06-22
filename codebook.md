@@ -1,15 +1,15 @@
-# This codebook.md file is intended to describe the variables, data, tranformations and work submitted as the course project for Getting and Cleaning Data - getdata-004
+This codebook.md file is intended to describe the variables, data, tranformations and work submitted as the course project for Getting and Cleaning Data - getdata-004
 
-## Description of transformation and work performed in the run_analysis.R script 
+Description of transformation and work performed in the run_analysis.R script 
 * Merge the training and test sets to create one data set
 * Extract only the measurements on the mean and standard deviation for each measurement
 * Transform activity index to description activity names
 * Label the data set with descriptive variable names
 * Create a second, independent tidy data set with the average of each variable for each activity and each subject
 
-## Description of data/variables in tidy.csv
+Description of data/variables in tidy.csv
 
-## For each record in the dataset it is provided:
+For each record in the dataset it is provided:
 * subject: an identifier of the subject who carried out the experiment
 * activites: a label describing the activity performed by the subject
 * Mean and StdDev triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration
