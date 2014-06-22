@@ -1,14 +1,26 @@
-# Codebook for getdata-004
+# This codebook.md file is intended to describe the variables, data, tranformations and
+# work submitted as the course project for Getting and Cleaning Data - getdata-004
 
-# Data aquisition
-### Download https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-### cp ~Downloads/getdata* ./
-### unzip getdata-projecctfiles-UCI\ HAR\ Dataset.zip
+* Merge the training and test sets to create one data set
+* Extract only the measurements on the mean and standard deviation for each measurement
+* Transform activity index to description activity names
+* Label the data set with descriptive variable names
+* Create a second, independent tidy data set with the average of each variable for each activity and each subject
 
-|Variable Name | Type | Description | 
-|--------------|------|-------|
-|subject | numeric | Subject Index |
-|activities | text | Activity Name |
+# description of variables in tidy.csv
+
+# For each record in the dataset it is provided:
+* subject: an identifier of the subject who carried out the experiment
+* activity: a label describing the activity performed by the subject
+* Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration
+* Triaxial Angular velicity from the gyroscope
+
+
+
+|Column Names|
+|--------------|
+|subject |
+|activities |
 |tBodyAcc.mean...X | 
 |tBodyAcc.mean...Y | 
 |tBodyAcc.mean...Z | 
